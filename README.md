@@ -6,4 +6,4 @@ CSS - *Bhavesh*
 ***Deadline** - 07/02/2025*
 
 # Directory structure
-(assets\images\directoryStructure.png)
+(assets/images/directoryStructure.png)
