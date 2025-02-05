@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    border:2px;
+    padding: 500px; 
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 20px;
+}
