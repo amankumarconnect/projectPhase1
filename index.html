@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="one">
@@ -13,6 +13,14 @@
             <div class="hi"></div>
             <div class="mi">27C</div>
             <div class="swagat">Light Rain</div>
+            <div class="dt">date and time</div>
+            <div class="quote">headlines</div>
+            <!-- <div class="timer">timer</div> -->
+            <div class="timer">0:00</div>
+            <button onclick="startStopwatch()">Start</button>
+            <button onclick="stopStopwatch()">Stop</button>
+            <button onclick="resetStopwatch()">Reset</button>
+
         </div>
         <div id="container">
             <div id="box1"><input type="text" placeholder="Search..."></input></div>
@@ -28,5 +36,10 @@
             <div>by-Thomas Edison</div>
         </div>
     </header>
+
+    <script src="js/datetime.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/headlines.js"></script>
+    <script src="js/timer.js"></script>
 </body>
 </html>
