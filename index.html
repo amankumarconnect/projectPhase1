@@ -4,39 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="edit.css">
 </head>
 <body>
-    <header id="one">
-        <div><h1>Good morning, </h1></div>
-        <div id="d">
-            <div class="hi"></div>
-            <div class="mi">27C</div>
-            <div class="swagat">Light Rain</div>
-            <div class="dt">date and time</div>
-            <div class="quote">headlines</div>
-            <!-- <div class="timer">timer</div> -->
-            <div class="timer">0:00</div>
-            <button onclick="startStopwatch()">Start</button>
-            <button onclick="stopStopwatch()">Stop</button>
-            <button onclick="resetStopwatch()">Reset</button>
-
-        </div>
-        <div id="container">
-            <div id="box1"><input type="text" placeholder="Search..."></input></div>
-            <div id="box2">
-                <a href="https://www.google.com/" target="_main" id="web1">Google</a>
+    <div class="header">
+        <div class="leftpart">
+            <div class="goodmorning">
+                <h1>Good Morning,Aman</h1>
             </div>
-            <div id="box3">
-                <a href="https://chatgpt.com/" target="_main" id="web2">ChatGPT</a>
+                
+            <div class="searchbox">
+                <input class="searchbox1" type="text" placeholder="Search..."></input>
+                 <a href="https://www.google.com/" id="a1"><button class="button1" >Google</button></a>
+                <a href="https://chatgpt.com/" id="a2"><button class="button2">chatgpt</button></a>
             </div>
         </div>
-        <div id="thought">
-            Genius is one percent inspiration and ninety-nine percent perspiration.
-            <div>by-Thomas Edison</div>
-        </div>
-    </header>
 
+        <div class="rightpart">
+            <div class="timedate">
+                <pre>28 Jan Tuesday 5:28 AM</pre>
+            </div>
+
+            <div class="weather">
+                <div class="picture">
+                    <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/04/wolverine-in-comic-art-by-leinil-yu.jpg" alt="Wolverine" width="100">
+                </div >
+                <div  class="ttext">
+
+                    <div class="temperature">
+                    <pre>  27&deg C</pre>
+                    </div>
+                    
+                    <div class="temperaturetext">
+                    <p>Light Rain</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="centrepart">
+        <p>A single page is just a webpage and not a website !</p>
+        <p>-Anonymous</p>
+    </div>
+
+    <div class="tracker">
+        <div class="todolist">
+            <h1>Todo</h1>
+            <input type="text" placeholder="What are your today's plans ? " style="width :200px">
+            <button width="250">  Submit</button>
+            <ul id="taskList">
+                <li>
+                    <button>Delete</button>
+                    <span> task 1</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 2</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 3</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 4</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 5</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 6</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 7</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 8</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 9</span>
+                </li>
+                <li>
+                    <button>Delete</button>
+                    <span> task 10</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="headlines">
+        <h2>Headlines</h2>
+         <ol>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+            <li>
+                Headline
+            </li>
+
+        </ol>
+
+        </ul>
+
+        </div>
+        
+        <div class="focus">
+            <div class="daytracker" ></div>
+            <div>
+                <div>Focus session<br>15:00</div>
+                <div>
+                    <button class="start">start</button>
+                    <button class="stop">stop</button>
+                    <button class="reset">reset</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
     <script src="js/datetime.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/headlines.js"></script>
