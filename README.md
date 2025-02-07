@@ -8,3 +8,6 @@ HELP - *Swagat*
 
 # Directory structure
 ![Directory Structure](assets/images/directoryStructure.png)
+
+# gitGuide
+![gitGuide](assets/images/gitGuide.png)
