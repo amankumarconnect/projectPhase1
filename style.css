@@ -2,124 +2,98 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-body{
     background-color: black;
-    border: 5px solid white;
-    height: 100vh;
-    border-radius:10px;
-}
-h1{
-    font-size: xx-large;
-}
-#one{
-    font-family: cursive;
-    color: white;
-    position: absolute;
-    top: 50px;
-    left: 50px; 
-    margin: 0;
-}
-#d{
     color:white;
-    height: 180px;
-    width: 300px;
-    border:2px;
-    padding: 50px;
-    border-style: solid;    
-    border-color: white;
-    border-radius: 10px;
-    position: fixed;
-    right: 50px;
-    top: 30px;
-}
-.hi{
-    background-image: url("/nature.jpg");
-    background-size: cover;
-    height: 170px;
-    width: 150px;
-    position: relative;
-    right:47px;
-    bottom:47px;
-}
-.mi{
-    position: absolute;
-    font-size: xx-large;
-    text-align: center;
-    left:150px;
-    height: 85px;
-    width: 150px;
-    bottom:80px;
-}
-.swagat{
-    position: absolute;
-    left:190px;
-    bottom: 25px;
-    font-size: xx-large;
-}
-#container{
-    height: 5px;
-    width: 500px;
-    border: 2px;
-    padding: 20px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: white;
-    margin-top: 30px;
-}
-#box1{
-    height: 2px;
-    width: 10px;
-    position: relative;
-    bottom: 15px;
-}
-#box2{
-    height:2px;
-    width:40px;
-    position: relative;
-    left:220px;
-    bottom:15px;
-    padding: 10px;
-    border: 2px;
-    border-color: white;
-    border-style: solid;
-    padding-left: 70px;
-}
-#web1{
-    position: relative;
-    bottom:12px;
-    right:55px;
-    text-decoration: none;
-    color: white;
-}
-#box3{
-    height: 2px;
-    width: 40px;
-    position: relative;
-    left: 360px;
-    bottom: 40px;
-    border:2px;
-    padding: 11px;
-    border-color: white;
-    border-style: solid;
-    padding-left: 70px;
-}
-#web2{
-    position: relative;
-    bottom: 11px;
-    right: 60px;
-    text-decoration: none;
-    color: white;
-}
-#thought{
     font-family: cursive;
+}
+body {
+  border: 5px solid white;
+  height: 100vh;
+  border-radius: 15px;
+  color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.goodmorning{
+    margin:40px;
     font-size: larger;
-    position: relative;
+}
+.leftpart{
+    width:75%;
+}
+.searchbox{
+    margin:9px;
+    width:90%;
+    height:30px;
+    border:3px;
     border-style: solid;
     border-color: white;
-    border-radius: 30px;
-    margin-top: 70px;
-    height: 60px;
-    width:1450px;
+    border-radius: 5px;
+    margin-left:50px;
+}
+#a1{
+    text-decoration: none;
+    color: white;
+    margin-left: 300px;
+}
+#a2{
+    text-decoration: none;
+    color: white;
+    margin-right:300px;
+}
+.timedate{
+    font-size: x-large;
+    margin: 20px;
+}
+.weather{
+    border:2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.ttext{
+    font-size: x-large;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.centrepart{
+    font-size: large;
+    font-family: cursive;
+    margin-top: 10px;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
     text-align: center;
 }
+.tracker{
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    height:55%;
+    margin-top:10px;
+}
+.todolist{
+    border:2px solid white;
+    width:30%;
+    margin-left: 12px;
+}
+.headlines{
+    border:2px solid white;
+    width: 30%;
+}
+.focus{
+    border:2px solid white;
+    width:30%;
+    margin-right:10px;
+}
+
